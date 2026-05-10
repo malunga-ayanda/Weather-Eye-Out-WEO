@@ -2,11 +2,11 @@ Wather Eye Out is a realtime system recourse monitoring service for servers, hom
 It shows reliable realtime performance metrics which can be accesed locally or remotely on port 3000 with other features in develoment
 
 Features Now:
--CPU Speed Graph
--Ram Usage Graph
--Disk Usage Chart
--Server Current Time
--Server Up Time
+1. CPU Speed Graph
+2. Ram Usage Graph
+2. Disk Usage Chart
+4. Server Current Time
+5. Server Up Time
 
 Tools:
 Stack: Node.js, Express.js, React, Recharts
@@ -26,11 +26,11 @@ Setup Instructions:
 9. After all is done you can now visit http://localhost:3000/ on the same device or http://[yourlocalip]:3000 for devices on same network or http://[yourwanip]:3000 for devices over the internet Port Forwarding Required for Wan
 
 Features to expect:
-Auth Service → handles users & security.
-Issue Reporting API → core application.
-Notification System → reacts to events.
-URL Shortener → shared utility service.
-Home Server API → infrastructure + monitoring.
+1. Auth Service → handles users & security.
+2. Issue Reporting API → core application.
+3. Notification System → reacts to events.
+4. URL Shortener → shared utility service.
+5. Home Server API → infrastructure + monitoring.
 
 <img width="1861" height="1040" alt="image" src="https://github.com/user-attachments/assets/0c27ad99-09b4-4766-9208-990239cbca1e" />
 <img width="802" height="393" alt="image" src="https://github.com/user-attachments/assets/e7ff935a-42bb-4e89-9ad3-bded5050ffae" />
