@@ -33,6 +33,8 @@ Features to expect:
 3. URL Shortener → shared utility service.
 3. Account Management.
 
-<img width="1861" height="1040" alt="image" src="https://github.com/user-attachments/assets/0c27ad99-09b4-4766-9208-990239cbca1e" />
+<img width="1920" height="1080" alt="React App - Opera 2026-05-23 01-38-27" src="https://github.com/user-attachments/assets/0cac63b4-80b8-4e1f-bacf-a0c10173f4c9" />
 
-<img width="802" height="393" alt="image" src="https://github.com/user-attachments/assets/e7ff935a-42bb-4e89-9ad3-bded5050ffae" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-23 013859" src="https://github.com/user-attachments/assets/97067932-f667-480e-9fdb-29b1f9ba9f3f" />
+
