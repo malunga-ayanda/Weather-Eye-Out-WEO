@@ -1,3 +1,4 @@
 /weo_server/node_modules
 /weo_client/node_modules
+/request.rest
 *.log

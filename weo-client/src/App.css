@@ -5,181 +5,34 @@
 }
 
 .main {
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(20, 20, 20);
   padding: 30px;
   min-height: 1080px;
   min-width: fit-content;
   position: relative;
 }
 
-.speedometer-border {
-  width: 353px;
-  height: 353px;
-  border-radius: 50%;
-  margin: 50px auto;
-  margin-top: 500px;
-  padding: 3px;
-  /* controls border thickness */
-  background: linear-gradient(to bottom, cyan, pink);
+.loginmain {
+  background-color: rgb(20, 20, 20);
+  padding: 30px;
+  min-height: 1080px;
+  min-width: fit-content;
   position: relative;
+  align-items: center;
 }
 
-.speedometer-outercontainer {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: white;
-  padding: 3px;
-}
-
-.speedometer-innerborder {
-  width: 341px;
-  height: 341px;
-  border-radius: 50%;
-  margin: auto;
-  padding: 3px;
-  background: linear-gradient(to bottom, cyan, pink);
-}
-
-.speedometer-innercontainer {
-  width: 334px;
-  height: 334px;
-  border-radius: 50%;
-  background-color: rgb(2 6 23);
-  margin: auto;
-  position: absolute;
-  padding: 5px;
-}
-
-.dot {
-  width: 31px;
-  height: 31px;
-  border-radius: 50%;
-  background-color: rgb(215, 128, 250);
-  margin: auto;
-  padding: 13px;
-}
-
-.scale-1,
-.scale-2,
-.scale-3,
-.scale-4,
-.scale-5,
-.scale-6,
-.scale-7,
-.scale-8,
-.scale-9,
-.scale-10,
-.scale-11,
-.scale-12,
-.scale-13,
-.scale-14,
-.scale-15
- {
-  background-color: white;
-  width: 5px;
-  height: 324px;
-  position: absolute;
-  left: 49%;
-}
-
-.scale-1{
-  transform: rotate(24deg);
-}
-
-.scale-2 {
-  transform: rotate(48deg);
-}
-
-.scale-3 {
-  transform: rotate(72deg);
-}
-
-.scale-4 {
-  transform: rotate(96deg);
-}
-
-.scale-5 {
-  transform: rotate(120deg);
-  z-index: 1;
-}
-
-.scale-6 {
-  transform: rotate(144deg);
-}
-
-.scale-7 {
-  transform: rotate(168deg);
-}
-
-.scale-8 {
-  transform: rotate(192deg);
-}
-
-.scale-9 {
-  transform: rotate(216deg);
-}
-
-.scale-10 {
-  transform: rotate(240deg);
-  z-index: 1;
-}
-
-.scale-11 {
-  transform: rotate(264deg);
-}
-
-.scale-12 {
-  transform: rotate(288deg);
-}
-
-.scale-13 {
-  transform: rotate(312deg);
-}
-
-.scale-14 {
-  transform: rotate(336deg);
-}
-
-.scale-15 {
-  z-index: 1;
-}
-
-.guage_field {
-  width: 284px;
-  height: 284px;
-  top: 25px;
-  left: 25px;
-  border-radius: 50%;
-  background-color: rgb(2 6 23);
-  position: absolute;
-}
-
-.guage_innerfield {
-  width: 284px;
-  height: 284px;
-  top: 25px;
-  left: 25px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-}
-
-.caption
-.text{
+.text {
+  color: white;
   font-family: 'Inter', sans-serif;
 }
 
-.text{
-  color: white;
-}
-
-.caption{
+.caption {
   color: white;
   margin-left: 35%;
+
 }
 
-.invis_text{
+.invis_text {
   visibility: hidden;
 }
 
@@ -188,6 +41,7 @@
   grid-template-columns: min-content min-content;
   padding: 10px;
 }
+
 .container div {
   padding: 20px;
   align-items: center;
@@ -198,43 +52,127 @@
   grid-template-columns: auto auto;
   padding: 1px;
 }
+
 .containerinner div {
   padding: 1px;
   align-items: center;
 }
 
-.time_awake{
+.time_awake {
   width: 263px;
   height: 139px;
-  background-color: rgb(40, 40, 40);
-  border-radius: 2%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 20px;
   text-align: center;
   align-content: start;
 }
 
-.server_time{
+.server_time {
   width: 800px;
   height: 139px;
-  background-color: rgb(40, 40, 40);
-  border-radius: 2%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 20px;
 }
 
 .cpu_graph,
 .ram_graph,
-.disk_graph,
-.docker_control{
+.disk_graph {
   width: 800px;
   height: 366px;
-  background-color: rgb(40, 40, 40);
-  border-radius: 2%;
+  background-color: rgb(30, 30, 30);
+  border-radius: 20px;
   align-content: start;
 }
 
-.time_icon{
+.docker_control {
+  width: 1640px;
+  height: 366px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.time_icon {
   width: 60px;
   height: 60px;
   border: 1px solid rgb(60, 60, 60);
   border-radius: 50%;
   align-content: center;
   padding-bottom: 20%;
+}
+
+.docker_button {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(23, 99, 238);
+  text-align: center;
+  padding: 4px;
+  border-radius: 20px;
+  border-color: rgb(23, 99, 238);
+  margin-left: 20px;
+}
+
+.dockercontrol_inner {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(35, 35, 35);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-content: start;
+  border-radius: 20px;
+}
+
+.dockertable {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  padding: 1px;
+}
+
+.dockertable div {
+  align-items: start;
+  padding: 10px;
+}
+
+.login_container{
+  background-color: rgb(30, 30, 30);
+  padding: 30px;
+  height: 540px;
+  width: 960px;
+  margin-left: 25%;
+  margin-top: 250px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.username_textarea{
+  min-width: 250px;
+  min-height: 40px;
+  align-content: center;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.password_textarea{
+  min-width: 250px;
+  min-height: 40px;
+  align-content: center;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.login_button {
+  width: 140px;
+  height: 35px;
+  background-color: rgb(23, 99, 238);
+  text-align: center;
+  padding: 4px;
+  border-radius: 10px;
+  border-color: rgb(23, 99, 238);
+  margin-left: 20px;
 }
